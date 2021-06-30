@@ -9,8 +9,7 @@ const connect = function () {
     console.log("Successfully connected")
     conn.write("Name: MOE")
     conn.write("Move: up")
-    conn.write("Move: left")
-    conn.write("Move: up")
+  
     
     
     

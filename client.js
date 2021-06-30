@@ -8,14 +8,14 @@ const connect = function () {
   conn.on("connect", () => {
     console.log("Successfully connected")
     conn.write("Name: MOE")
-    conn.write("Move: up")
-    setTimeout(()=> {
-      conn.write("Move: left")
+    // conn.write("Move: up")
+    // setTimeout(()=> {
+    //   conn.write("Move: left")
 
-    }, 2000)
-    setTimeout(()=> {
-      conn.write("Move: up")
-    },3000)
+    // }, 2000)
+    // setTimeout(()=> {
+    //   conn.write("Move: up")
+    // },3000)
   
     
     

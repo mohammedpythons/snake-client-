@@ -25,10 +25,6 @@ const setupInput = function () {
 setupInput()
 
 
- 
-
-
-
 
 console.log("Connecting ...");
 connect();
